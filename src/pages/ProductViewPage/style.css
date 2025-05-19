@@ -1,0 +1,8 @@
+.product-view-container {
+    display: flex;
+    gap: 20px; /* Espaçamento entre Gallery e BuyBox */
+}
+
+.product-view-container > * {
+    flex: 1; /* Para que cada componente ocupe o mesmo espaço */
+}

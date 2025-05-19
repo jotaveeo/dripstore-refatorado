@@ -1,0 +1,11 @@
+.product-listing {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+  margin-left: 3.45%;
+}
+
+.product-card {
+  padding: 16px;
+  border-radius: 4px;
+}

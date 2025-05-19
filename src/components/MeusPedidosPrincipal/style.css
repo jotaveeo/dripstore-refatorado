@@ -1,0 +1,54 @@
+:root {
+  /* Escala de cores coloridas */
+  --cor-primary: #c92071;
+  --cor-secondary: #b5b6f2;
+  --cor-tertiary: #991956;
+  --cor-error: #ee4266;
+  --cor-sucess: #52ca76;
+  --cor-warning: #f6aa1c;
+  --cor-warning-dark: #cb8c18;
+  /* Escala de cinza */
+  --cor-dark-gray: #1f1f1f;
+  --cor-dark-gray-2: #474747;
+  --cor-dark-gray-3: #666666;
+  --cor-light-gray: #8f8f8f;
+  --cor-light-gray-2: #cccccc;
+  --cor-light-gray-3: #f5f5f5;
+  --cor-white: #ffffff;
+}
+
+.meus-pedidos-principal-container {
+  width: 334px;
+  background-color: var(--cor-light-gray-3);
+  height: 300px;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.meus-pedidos-principal-container > ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  height: 100%;
+}
+
+.meus-pedidos-principal-container > ul > li:first-child {
+  font-weight: 700;
+}
+
+.meus-pedidos-principal-container > ul > li {
+  font-weight: 500;
+  font-size: 14px;
+  width: 90%;
+}
+
+.meus-pedidos-principal-container > ul > li + li {
+  padding-top: 1rem;
+  border-top: 1.5px solid var(--cor-light-gray-2);
+}
+
+.meus-pedidos-principal-container > ul > li.active-li {
+  color: var(--cor-primary);
+  font-weight: 700;
+}

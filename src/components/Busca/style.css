@@ -1,0 +1,74 @@
+:root {
+  /* Escala de cores coloridas */
+  --cor-primary: #c92071;
+  --cor-secondary: #b5b6f2;
+  --cor-tertiary: #991956;
+  --cor-error: #ee4266;
+  --cor-sucess: #52ca76;
+  --cor-warning: #f6aa1c;
+  --cor-warning-dark: #cb8c18;
+  /* Escala de cinza */
+  --cor-dark-gray: #1f1f1f;
+  --cor-dark-gray-2: #474747;
+  --cor-dark-gray-3: #666666;
+  --cor-light-gray: #8f8f8f;
+  --cor-light-gray-2: #cccccc;
+  --cor-light-gray-3: #f5f5f5;
+  --cor-white: #ffffff;
+}
+
+.busca-bar {
+  display: flex;
+  justify-content: space-around;
+  cursor: pointer;
+  height: 2rem;
+}
+
+.busca-search-bar {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  padding: 30px 0px 30px 20px;
+  border: none;
+  background-color: var(--cor-light-gray-3);
+  border-radius: 5px;
+  width: 40%;
+  outline: none;
+}
+
+.busca-search-bar::placeholder {
+  color: #999;
+}
+
+.busca-cadastro {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  padding: 0.2rem 1rem;
+  border: none;
+  cursor: pointer;
+  text-decoration: underline;
+  color: var(--cor-dark-gray-2);
+  background-color: transparent;
+}
+
+.busca-button-primary {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  padding: 0.75rem 2.3rem;
+  background-color: var(--cor-primary);
+  color: var(--cor-light-gray-3);
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.busca-cart-icon {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.busca-margin {
+  margin-top: 40px;
+}

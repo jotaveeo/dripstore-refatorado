@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+/*  */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+}
+
+
+:root {
+  /* Escala de cores coloridas */
+  --cor-primary: #c92071;
+  --cor-secondary: #b5b6f2;
+  --cor-tertiary: #991956;
+  --cor-error: #ee4266;
+  --cor-sucess: #52ca76;
+  --cor-warning: #f6aa1c;
+  /* Escala de cinza */
+  --cor-dark-gray: #1f1f1f;
+  --cor-dark-gray-2: #474747;
+  --cor-dark-gray-3: #666666;
+  --cor-light-gray: #8f8f8f;
+  --cor-light-gray-2: #cccccc;
+  --cor-light-gray-3: #f5f5f5;
+  --cor-white: #ffffff;
+}

@@ -1,0 +1,54 @@
+:root {
+  /* Escala de cores coloridas */
+  --cor-primary: #c92071;
+  --cor-secondary: #b5b6f2;
+  --cor-tertiary: #991956;
+  --cor-error: #ee4266;
+  --cor-sucess: #52ca76;
+  --cor-warning: #f6aa1c;
+  --cor-warning-dark: #cb8c18;
+  /* Escala de cinza */
+  --cor-dark-gray: #1f1f1f;
+  --cor-dark-gray-2: #474747;
+  --cor-dark-gray-3: #666666;
+  --cor-light-gray: #8f8f8f;
+  --cor-light-gray-2: #cccccc;
+  --cor-light-gray-3: #f5f5f5;
+  --cor-white: #ffffff;
+}
+
+.user-status {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.user-email {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  padding: 0.75rem 2.3rem;
+  color: var(--cor-dark-gray-2);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.user-email:hover {
+  text-decoration: underline;
+}
+
+.logout-button {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  padding: 0.5rem 1rem;
+  background-color: var(--cor-primary);
+  color: var(--cor-light-gray-3);
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.logout-button:hover {
+  background-color: var(--cor-tertiary);
+}

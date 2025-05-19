@@ -1,0 +1,132 @@
+:root {
+  --cor-primary: #c92071;
+  --cor-secondary: #b5b6f2;
+  --cor-tertiary: #991956;
+  --cor-error: #ee4266;
+  --cor-sucess: #52ca76;
+  --cor-warning: #f6aa1c;
+  --cor-warning-dark: #cb8c18;
+  --cor-dark-gray: #1f1f1f;
+  --cor-dark-gray-2: #474747;
+  --cor-dark-gray-3: #666666;
+  --cor-light-gray: #8f8f8f;
+  --cor-light-gray-2: #cccccc;
+  --cor-light-gray-3: #f5f5f5;
+  --cor-white: #ffffff;
+}
+
+.minhas-informacoes-container {
+  display: flex;
+  margin: 40px;
+  gap: 20px;
+  padding: 0 16rem 0 16rem;
+}
+
+.minhas-informacoes-nav {
+  width: 334px;
+  background-color: var(--cor-white);
+  padding: 18px 30px;
+  gap: 20px;
+  border-radius: 4px;
+  max-height: 268px;
+}
+
+.minhas-informacoes-nav p {
+  margin: 17.5px 0;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0.25px;
+}
+
+.minhas-informacoes-nav p:nth-child(5) {
+  font-weight: 700;
+  color: var(--cor-primary);
+}
+
+.minhas-informacoes-nav p:nth-child(1) {
+  font-weight: 700;
+}
+
+.minhas-informacoes-nav hr {
+  width: 274px;
+}
+
+.minhas-informacoes-content {
+  width: 890px;
+  background-color: var(--cor-white);
+  padding: 30px;
+  border-radius: 4px;
+  gap: 20px;
+}
+
+.minhas-informacoes-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.minhas-informacoes-header p {
+  font-weight: 700;
+  letter-spacing: 0.75px;
+}
+
+.minhas-informacoes-title {
+  font-size: 16px;
+  margin: 15px 0;
+}
+
+.minhas-informacoes-content p,
+hr {
+  margin: 5px 0;
+  line-height: 1.5;
+  font-size: 14px;
+}
+
+.minhas-informacoes-edit-link {
+  padding: 0 0 0 30px;
+  margin: 1%;
+  width: 86px;
+  height: 22px;
+  gap: 31px;
+}
+
+.minhas-informacoes-edit-link a {
+  color: #d63384;
+  font-size: 14px;
+}
+
+.minhas-informacoes-pessoais,
+.minhas-informacoes-entrega {
+  margin-bottom: 20px;
+}
+
+.minhas-informacoes-item {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 0.6rem;
+}
+
+.minhas-informacoes-item p:nth-child(1) {
+  color: var(--cor-light-gray);
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0.25px;
+}
+
+.minhas-informacoes-item p:nth-child(2) {
+  color: var(--cor-dark-gray);
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0.25;
+  align-items: center;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--cor-dark-gray-2);
+}
+
+.link:hover {
+  text-decoration: underline;
+}

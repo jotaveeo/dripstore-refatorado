@@ -1,0 +1,46 @@
+:root {
+  /* Escala de cores coloridas */
+  --cor-primary: #c92071;
+  --cor-secondary: #b5b6f2;
+  --cor-tertiary: #991956;
+  --cor-error: #ee4266;
+  --cor-sucess: #52ca76;
+  --cor-warning: #f6aa1c;
+  --cor-warning-dark: #cb8c18;
+  /* Escala de cinza */
+  --cor-dark-gray: #1f1f1f;
+  --cor-dark-gray-2: #474747;
+  --cor-dark-gray-3: #666666;
+  --cor-light-gray: #8f8f8f;
+  --cor-light-gray-2: #cccccc;
+  --cor-light-gray-3: #f5f5f5;
+  --cor-white: #ffffff;
+}
+
+.input-cadastro-campo {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+
+.input-cadastro-info {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+
+.input-cadastro-info label {
+  font-family: "Inter", sans-serif;
+  color: var(--cor-dark-gray-2);
+  font-weight: 700;
+}
+
+.input-cadastro-info input {
+  background-color: rgba(219, 219, 219, 0.411);
+  border: 0;
+  border-radius: 8px;
+  padding: 16px;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}

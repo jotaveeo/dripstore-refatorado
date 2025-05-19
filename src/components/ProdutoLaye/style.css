@@ -1,0 +1,91 @@
+:root {
+  /* Escala de cores coloridas */
+  --cor-primary: #c92071;
+  --cor-secondary: #b5b6f2;
+  --cor-tertiary: #991956;
+  --cor-error: #ee4266;
+  --cor-sucess: #52ca76;
+  --cor-warning: #f6aa1c;
+  --cor-warning-dark: #cb8c18;
+  /* Escala de cinza */
+  --cor-dark-gray: #1f1f1f;
+  --cor-dark-gray-2: #474747;
+  --cor-dark-gray-3: #666666;
+  --cor-light-gray: #8f8f8f;
+  --cor-light-gray-2: #cccccc;
+  --cor-light-gray-3: #f5f5f5;
+  --cor-white: #ffffff;
+}
+
+.produto-laye {
+  padding: 3rem;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 100px;
+  background-color: var(--cor-white);
+}
+
+.oferta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to bottom, #4200ff40, 10%, #ffffff);
+  border-radius: 100%;
+  width: 466px;
+  height: 466px;
+}
+
+.oferta img {
+  width: 100%;
+  height: 100%;
+  transform: scale(1.2);
+}
+
+.laye-table {
+  width: 100%;
+}
+
+.laye-table button {
+  background-color: var(--cor-primary);
+  width: 200px;
+  height: 40px;
+  border: none;
+  font-weight: 700;
+  font-size: 14px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.laye-table button:hover {
+  background-color: var(--cor-tertiary);
+}
+
+.laye-table a {
+  color: var(--cor-white);
+  text-decoration: none;
+}
+
+.laye-table strong {
+  color: var(--cor-primary);
+}
+
+.laye-table h1 {
+  font-weight: bold;
+  max-width: 500px;
+}
+
+.laye-table p {
+  max-width: 400px;
+  color: var(--cor-dark-gray-2);
+}
+
+.h1-produtolaye {
+  font-size: 52px;
+  color: var(--cor-dark-gray-2);
+}
+
+.laye-table th {
+  text-align: left;
+}

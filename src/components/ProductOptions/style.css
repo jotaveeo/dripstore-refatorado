@@ -1,0 +1,24 @@
+
+
+.product-options {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  font-family: "Inter", sans-serif;
+}
+
+.option-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 16px;
+  transition: border 0.3s;
+}
+
+.tamanhop {
+  font-family: "Inter", sans-serif;
+  color: var(--cor-dark-gray-2);
+  font-weight: 700;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,14 @@
+
+
+/* Estilos para o componente Logo */
+.logo-container {
+  display: flex;
+  justify-content: center; /* Alinha a logo no centro, se necessário */
+  align-items: center;
+  padding: 5px 0; /* Pode ajustar conforme necessidade de espaçamento */
+}
+
+.logo-header {
+  width: 253px;
+  height: 44px;
+}

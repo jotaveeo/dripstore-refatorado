@@ -1,0 +1,107 @@
+:root {
+  /* Escala de cores coloridas */
+  --cor-primary: #c92071;
+  --cor-secondary: #b5b6f2;
+  --cor-tertiary: #991956;
+  --cor-error: #ee4266;
+  --cor-sucess: #52ca76;
+  --cor-warning: #f6aa1c;
+  --cor-warning-dark: #cb8c18;
+  /* Escala de cinza */
+  --cor-dark-gray: #1f1f1f;
+  --cor-dark-gray-2: #474747;
+  --cor-dark-gray-3: #666666;
+  --cor-light-gray: #8f8f8f;
+  --cor-light-gray-2: #cccccc;
+  --cor-light-gray-3: #f5f5f5;
+  --cor-white: #ffffff;
+}
+
+.form-cadastro Input {
+  padding: 0.8rem;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+
+.form-cadastro h1 {
+  color: var(--cor-dark-gray);
+  margin-bottom: 40px;
+}
+
+.form-cadastro h2 {
+  color: var(--cor-dark-gray-2);
+  margin-bottom: 20px;
+}
+
+.form-cadastro p {
+  font-family: "Inter", sans-serif;
+  color: var(--cor-dark-gray-2);
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.form-cadastro hr {
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 40px;
+  color: var(--cor-light-gray-2);
+}
+
+.form-cadastro {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+  align-items: center;
+}
+
+.form-content h1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.checkbox-cadastro input[type="checkbox"] {
+  width: 22px;
+  height: 22px;
+  accent-color: var(--cor-primary);
+  margin-right: 5px;
+  border: 1px;
+  border-radius: 2px;
+}
+
+.checkbox-cadastro {
+  margin-right: 0.5rem;
+  margin-bottom: 20px;
+  display: flex;
+  font-family: "Inter", sans-serif;
+  color: var(--cor-dark-gray-2);
+  gap: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0.22px;
+}
+
+.button-cadastro button {
+  width: 750px;
+  height: 48px;
+  border-radius: 8px;
+  border: 0;
+  outline: 0;
+  background-color: var(--cor-primary);
+  font-family: "Inter", sans-serif;
+  color: var(--cor-light-gray-3);
+}
+
+.button-cadastro button:hover {
+  background-color: var(--cor-tertiary);
+  cursor: pointer;
+}
+
+.margin-cadastro {
+  margin-top: 80px;
+  /* background-color: var(--cor-light-gray-3); */
+}
+
+.top-cadastro {
+  margin-top: 40px;
+}
